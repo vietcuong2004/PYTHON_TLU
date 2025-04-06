@@ -1,0 +1,5 @@
+s = input("Nhập dãy số (cách nhau bởi ';'): ")
+s.replace(' ','')
+number_set = set(int(x) for x in s.split(';'))
+print("Số phần tử khác nhau là",len(number_set))
+print("Tập các số:",number_set)
